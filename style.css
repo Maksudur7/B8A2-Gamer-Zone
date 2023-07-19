@@ -352,13 +352,14 @@ footer ul li i{
     margin: 20px;
 }
 @media screen and (max-width:576px) {
-    body{
+    /* body{
        overflow-x: hidden;
-    }
+    } */
      /*  ====This is mobil nav section==== */
     nav{
         flex-direction: column;
         height: 300px;
+        width: 578px;
     }
     nav ul{
         flex-direction: column;
@@ -373,6 +374,7 @@ footer ul li i{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        width: 505px;
     }
     .header-content{
         width: 501px;
@@ -388,6 +390,7 @@ footer ul li i{
     .we-are-gaimer{
         flex-direction: column;
         padding: 0 28px;
+        width: 505px;
     }
     .we-are-gaimer img {
         width: 420px;
@@ -398,6 +401,7 @@ footer ul li i{
     /*  ====This is mobil online-games section==== */
     .online-games{
         padding: 0 28px;
+        width: 505px;
     }
     .online-games section{
         flex-direction: column;
@@ -409,6 +413,7 @@ footer ul li i{
     .play-instant{
         flex-direction: column;
         padding: 0 28px;
+        width: 505px;
     }
     .play-instant-contant{
         padding: 0;
@@ -448,12 +453,13 @@ footer ul li i{
         flex-direction: column;
         padding: 0 28px;
         text-align: start;
+        width: 505px;
     }
     .careers section{
         width: 100%;
     }
     .careers section img{
-        width: 452px;
+        width: 530px;
         height: 460px;
         margin-top: 5px;
     }
@@ -464,6 +470,7 @@ footer ul li i{
     /*  ====This is mobil button section==== */
     .button{
         padding: 100px 28px;
+        width: 505px;
     }
     .button button{
         width: 123px;
@@ -477,6 +484,11 @@ footer ul li i{
         grid-template-columns: repeat(3, 1fr);
     }
     /*  ====This is mobil footer section==== */
+    footer{
+        width: 578px;
+        margin: 0;
+        padding: 0;
+    }
     .footer-dettles{
         padding: 0 50px;
     }
