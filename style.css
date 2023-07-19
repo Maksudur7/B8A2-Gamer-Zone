@@ -185,8 +185,14 @@ nav ul li button .fa-brands{
     margin-top: 200px;
     margin-left: 75px;
     position: absolute;
-    z-index: 3;
-    
+    z-index: 3;  
+}
+.video-imeage{
+    opacity: 0;
+}
+.online-games section img:hover{
+    opacity: 0.4;
+    border: 2px solid #FF42A5;
 }
 /*  ====This is play-instant section==== */
 .play-instant{
@@ -474,4 +480,7 @@ footer ul li i{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+}
+@media screen  and (max-width:576px) and (min-width:768px) {
+    
 }
