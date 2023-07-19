@@ -290,7 +290,6 @@ nav ul li button .fa-brands{
 }
 .button button{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
     border: none;
