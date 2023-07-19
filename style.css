@@ -353,6 +353,9 @@ footer ul li i{
     margin: 20px;
 }
 @media screen and (max-width:576px) {
+    body{
+       overflow-x: hidden;
+    }
      /*  ====This is mobil nav section==== */
     nav{
         flex-direction: column;
@@ -451,8 +454,9 @@ footer ul li i{
         width: 100%;
     }
     .careers section img{
-        width: 410px;
+        width: 452px;
         height: 460px;
+        margin-top: 5px;
     }
     .careers-content{
         padding: 0;
