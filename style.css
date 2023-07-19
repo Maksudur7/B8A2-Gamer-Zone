@@ -1,0 +1,477 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --praimary-color: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    --font-color:#534C64;
+}
+/*  ====This is nav section==== */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 130px;
+    width: 100%;
+}
+nav h2{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav h2 span{
+    color: #FF42A5
+}
+nav h2 img{
+    width: 86.041px;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav ul li button{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+nav ul li button .fa-youtube{
+    color: red;
+    padding: 20px;
+}
+nav ul li button .fa-brands{
+    cursor: pointer;
+}
+/* ==== This is header section ====*/
+.header{
+    display: flex;
+    width: 100%;
+}
+.header-content{
+   background-image: url('./images/Group-14.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+   width: 600px;
+   padding: 120px 0px 80px 140px;
+
+}
+.header-content h4{
+    font-size: 48px;
+    font-weight: 600;
+}
+.header-content h1{
+    font-size: 95px;
+    font-weight: 800;
+    background: var(--praimary-color);    
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+.btn{
+    padding: 21px 40px;
+    border-radius: 48px;
+    margin: 20px 20px 20px 0;
+    border: none;
+}
+.header-image img{
+    height:500px ;
+    width: 500px;
+}
+.btn-praimary{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-secondary{
+    background-color: #4EC5F7;
+}
+/*  ====This is we-are-gaimer section==== */
+.we-are-gaimer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 120px;
+}
+.we-are-gaimer section{
+    text-align: end;
+}
+.we-are-gaimer img{
+    width: 700px;
+}
+.we-are-gaimer section h2 , .online-games h2 , .play-instant h2 span{
+    font-size: 48px;
+    font-weight: 700;
+    background: var(--praimary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.we-are-gaimer section p, .online-games p{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--font-color);
+}
+.we-are-gaimer section h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--font-color);
+}
+/*  ====This is online-games section==== */
+.online-games{
+    text-align: center;
+    padding: 0 120px;
+    margin-top: 100px;
+}
+.online-games section{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    gap: 20px;
+}
+.online-games section >div{
+    width:260px;
+    height:360px;
+    margin: 40px 0 20px 0;
+}
+.online-games section img{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+}
+.hover-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.445) 0%, rgba(0, 0, 0, 0.452) 100%), url(<path-to-image>), rgba(211, 211, 211, 0.336) 50% / cover no-repeat;
+    border-radius: 20px;
+    position: absolute;
+    width: 248px;
+    height: 348px;
+    border: 2px solid #FF42A5;
+    z-index: 2;
+    font-size: 45px;
+}
+.hover-background .fa-circle-play{
+    color: white;
+}
+.watch-now{
+    color: red !important;
+    margin-top: 200px;
+    margin-left: 75px;
+    position: absolute;
+    z-index: 3;
+    
+}
+/*  ====This is play-instant section==== */
+.play-instant{
+    display: flex;
+    margin-top: 150px;
+    padding: 0 120px;
+    gap: 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-instant-contant{
+   padding: 50px;
+    text-align: end;
+}
+.play-instant h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.play-instant section img{
+    width: 500px;
+    height: 550px;
+}
+#img2{
+    width: 318.5px;
+    height: 365.083px;
+    margin-top: -250px;
+    margin-left: -150px;
+}
+#img3{
+    width: 318.5px;
+    height: 365.083px;
+    margin-right: -150px;
+    margin-top: -250px;
+}
+/*  ====This is careers section==== */
+.careers{
+    display: flex;
+    padding: 0 140px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    justify-content: space-around;
+    align-items: center;
+}
+.careers button{
+    padding: 21px 40px;
+    background-color: white;
+    color: #FF42A5;
+    border-radius: 48px;
+    border: none;
+}
+.careers section{
+    width: 50%;
+}
+.careers section img{
+    width: 673px;
+    height: 621px;
+
+}
+.crear-dettles{
+    display: flex;
+    justify-content: space-between;
+}
+.careers-content{
+    color: white;
+}
+.careers-content h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 48px;
+}
+.careers-description{
+    margin: 40px 0;
+} 
+.careers-description h5{
+    margin: 10px 0;
+}
+/*  ====This is button section==== */
+.button{
+    padding: 100px 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.button button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border: none;
+    background: none;
+    width: 200px;
+    height: 80px;
+    padding:5px;
+}
+.button button:hover{
+    border: 3px solid #FF42A5;
+    color: #FF42A5;
+    border-radius: 45px;
+}
+.button button img{
+    margin-right: 5px;
+}
+  /*  ====This is footer section==== */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    height: 636px;
+    background: #0B0223;
+    color: white;
+}
+footer h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 45px;
+    font-weight: 700;
+    cursor: pointer;
+}
+footer h2 span{
+    color: #FF42A5
+}
+footer h2 img{
+    width: 86.041px;
+    height: 40px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+footer ul li{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+footer ul li i{
+    font-size: 35px;
+    margin: 20px;
+}
+@media screen and (max-width:576px) {
+     /*  ====This is mobil nav section==== */
+    nav{
+        flex-direction: column;
+        height: 300px;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    nav ul li{
+        margin-bottom: 30px ;
+    }
+    /*  ====This is mobil header section==== */
+    .header{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-content{
+        width: 501px;
+        background-position: center;
+        background-size: 550px;
+        padding: 120px 0px 80px 150px;
+    }
+    .header-image img{
+        height:400px ;
+        width: 300px;
+    }
+    /*  ====This is mobil we-are-gaimer section==== */
+    .we-are-gaimer{
+        flex-direction: column;
+        padding: 0 28px;
+    }
+    .we-are-gaimer img {
+        width: 420px;
+    }
+    .we-are-gaimer section{
+        text-align: center;
+    }
+    /*  ====This is mobil online-games section==== */
+    .online-games{
+        padding: 0 28px;
+    }
+    .online-games section{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  ====This is mobil play-instant section==== */
+    .play-instant{
+        flex-direction: column;
+        padding: 0 28px;
+    }
+    .play-instant-contant{
+        padding: 0;
+        text-align: center;
+    }
+    .play-instant section {
+        text-align: center;
+        justify-content: center;
+    }
+    .play-instant section img{
+        width: 300px;
+        height: 350px;
+        position: relative;
+    }
+    #img2{
+        width: 150.5px;
+        height: 200.083px;
+        position: absolute;
+        margin-top: 189px;
+        margin-left: -350px;
+        
+    }
+    #img3{
+        width: 150.5px;
+        height: 200.083px;
+        position: absolute;
+        margin-top: 189px;
+        margin-left: -97px;
+    }
+    /*  ====This is mobil play-online section==== */
+    .play-online{
+        flex-direction: column-reverse;
+    }
+    /*  ====This is mobil careers section==== */
+    .careers{
+        margin-top: 120px;
+        flex-direction: column;
+        padding: 0 28px;
+        text-align: start;
+    }
+    .careers section{
+        width: 100%;
+    }
+    .careers section img{
+        width: 410px;
+        height: 460px;
+    }
+    .careers-content{
+        padding: 0;
+        margin: 0;
+    }
+    /*  ====This is mobil button section==== */
+    .button{
+        padding: 100px 28px;
+    }
+    .button button{
+        width: 123px;
+        justify-content: center;
+    }
+    .button img{
+        width: 30px;
+    }
+    .button section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    /*  ====This is mobil footer section==== */
+    .footer-dettles{
+        padding: 0 50px;
+    }
+    footer ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    footer ul li{
+        margin-bottom: 20px;
+    }
+    .footer-dettles-ul-style{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
