@@ -360,7 +360,7 @@ footer ul li i{
     nav{
         flex-direction: column;
         height: 300px;
-        width: 100%;
+        width: 116%;
     }
     nav ul{
         flex-direction: column;
@@ -533,5 +533,70 @@ footer ul li i{
     .footer-dettles-ul-style{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px) {
+    body{
+        overflow-x: auto;
+    }
+    nav{
+        flex-direction: column;
+        width: 106%;
+    }
+    .header{
+        flex-direction: column-reverse;
+    }
+    .header-content{
+        padding: 120px 0px 80px 175px;
+    }
+    .header-image img {
+        height: 500px;
+        width: 500px;
+        margin: 0 157px;
+    }
+    .we-are-gaimer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .we-are-gaimer section{
+        text-align: center;
+    }
+    .online-games section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .play-instant{
+        flex-direction: column-reverse;
+    }
+    .play-instant section{
+        text-align: center;
+    }
+    .play-instant section img{
+        margin-left: 210px;
+    }
+    #img2 {
+        width: 265.5px;
+        height: 306.083px;
+        margin-top: -230px;
+        margin-left: -264px;
+    }
+    .play-online{
+        flex-direction: column;
+        display: none;
+    }
+    .careers{
+        flex-direction: column;
+        padding: 0;
+    }
+    .careers section{
+        width: 81%;
+    }
+    .careers section img {
+        width: 695px;
+        height: 601px;
+    }
+    .button section{
+        grid-template-columns: repeat(3,1fr);
     }
 }
