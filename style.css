@@ -434,6 +434,12 @@ footer ul li i{
         justify-content: center;
         align-items: center;
     }
+    .online-games section .video-imeage .hover-background{
+        width: 244px;
+    }
+    .online-games section .video-imeage .watch-now {
+        margin-left: 12px;
+    }
     /*  ====This is mobil play-instant section==== */
     .play-instant{
         flex-direction: column;
@@ -528,7 +534,4 @@ footer ul li i{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-}
-@media screen  and (max-width:576px) and (min-width:768px) {
-    
 }
