@@ -352,14 +352,15 @@ footer ul li i{
     margin: 20px;
 }
 @media screen and (max-width:576px) {
-    /* body{
-       overflow-x: hidden;
-    } */
+     body{
+       justify-content: center;
+       align-items: center;
+    } 
      /*  ====This is mobil nav section==== */
     nav{
         flex-direction: column;
         height: 300px;
-        width: 578px;
+        width: 100%;
     }
     nav ul{
         flex-direction: column;
@@ -374,13 +375,37 @@ footer ul li i{
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        width: 505px;
+        padding: 0 38px;
+        overflow-x: hidden;
     }
     .header-content{
-        width: 501px;
+        width: 314px;
         background-position: center;
-        background-size: 550px;
-        padding: 120px 0px 80px 150px;
+        background-size: 350px;
+        padding: 120px 0px 80px 34px;
+    }
+    .header-content h4{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .header-content h1{
+        font-size: 60px;
+        font-weight: 800;
+        background: var(--praimary-color);    
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .header-content p{
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--font-color);
+    }
+    .btn{
+        padding: 15px 35px;
+        border-radius: 48px;
+        margin: 20px 20px 20px 0;
+        border: none;
     }
     .header-image img{
         height:400px ;
@@ -390,7 +415,7 @@ footer ul li i{
     .we-are-gaimer{
         flex-direction: column;
         padding: 0 28px;
-        width: 505px;
+        width: 100%;
     }
     .we-are-gaimer img {
         width: 420px;
@@ -401,7 +426,7 @@ footer ul li i{
     /*  ====This is mobil online-games section==== */
     .online-games{
         padding: 0 28px;
-        width: 505px;
+        width: 100%;
     }
     .online-games section{
         flex-direction: column;
@@ -413,7 +438,7 @@ footer ul li i{
     .play-instant{
         flex-direction: column;
         padding: 0 28px;
-        width: 505px;
+        width: 100%;
     }
     .play-instant-contant{
         padding: 0;
@@ -446,20 +471,21 @@ footer ul li i{
     /*  ====This is mobil play-online section==== */
     .play-online{
         flex-direction: column-reverse;
+        width: 100%;
     }
     /*  ====This is mobil careers section==== */
     .careers{
         margin-top: 120px;
         flex-direction: column;
-        padding: 0 28px;
+        padding: 0 38px;
         text-align: start;
-        width: 505px;
+        width: 100%;
     }
     .careers section{
         width: 100%;
     }
     .careers section img{
-        width: 530px;
+        width: 452px;
         height: 460px;
         margin-top: 5px;
     }
@@ -470,7 +496,7 @@ footer ul li i{
     /*  ====This is mobil button section==== */
     .button{
         padding: 100px 28px;
-        width: 505px;
+        width: 100%;
     }
     .button button{
         width: 123px;
@@ -485,12 +511,11 @@ footer ul li i{
     }
     /*  ====This is mobil footer section==== */
     footer{
-        width: 578px;
-        margin: 0;
-        padding: 0;
+        width: 117%;
     }
     .footer-dettles{
         padding: 0 50px;
+        width: 100%;
     }
     footer ul{
         display: grid;
